@@ -1,0 +1,28 @@
+{
+  "name": "rocksdb-blobs",
+  "version": "0.0.0",
+  "description": "Just a blob store on rocks. Aims to be API compatible with Hyperblobs",
+  "main": "index.js",
+  "dependencies": {
+    "b4a": "^1.6.7",
+    "hyperdb": "^4.5.0",
+    "hyperschema": "^1.0.5",
+    "read-write-mutexify": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/holepunchto/rocksdb-blobs.git"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Holepunch Inc.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/rocksdb-blobs/issues"
+  },
+  "homepage": "https://github.com/holepunchto/rocksdb-blobs",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 0,
+  "offset": 0,
+  "schema": [
+    {
+      "name": "digest",
+      "namespace": "blobs",
+      "id": 0,
+      "type": 1,
+      "indexes": [],
+      "schema": "@blobs/digest",
+      "derived": false,
+      "key": [],
+      "trigger": null
+    },
+    {
+      "name": "blocks",
+      "namespace": "blobs",
+      "id": 1,
+      "type": 1,
+      "indexes": [],
+      "schema": "@blobs/block",
+      "derived": false,
+      "key": [
+        "index"
+      ],
+      "trigger": null
+    }
+  ]
+}

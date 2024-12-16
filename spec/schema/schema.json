@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "schema": [
+    {
+      "name": "digest",
+      "namespace": "blobs",
+      "compact": false,
+      "flagsPosition": -1,
+      "fields": [
+        {
+          "name": "blocks",
+          "required": true,
+          "type": "uint",
+          "version": 1
+        },
+        {
+          "name": "bytes",
+          "required": true,
+          "type": "uint",
+          "version": 1
+        },
+        {
+          "name": "blockSize",
+          "required": true,
+          "type": "uint",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "name": "block",
+      "namespace": "blobs",
+      "compact": true,
+      "flagsPosition": -1,
+      "fields": [
+        {
+          "name": "index",
+          "required": true,
+          "type": "uint",
+          "version": 1
+        },
+        {
+          "name": "value",
+          "required": true,
+          "type": "raw",
+          "version": 1
+        }
+      ]
+    }
+  ]
+}
