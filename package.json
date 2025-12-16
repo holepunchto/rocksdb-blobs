@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "b4a": "^1.6.7",
-    "hyperdb": "^4.5.0",
+    "hyperdb": "^5.0.0",
     "hyperschema": "^1.0.5",
     "read-write-mutexify": "^2.1.0"
   },
